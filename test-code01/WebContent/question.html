@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简单测试</title>
+</head>
+<body>
+	<p>请回答下面的问题： </p>
+	<form action="QuestionServlet" method="post">
+		<p>
+			1.Windows操作系统是哪个公司的产品？
+			<input type="radio" name="c1" value="0">Apple公司
+			<input type="radio" name="c1" value="0">IBM公司
+			<input type="radio" name="c1" value="1">Microsoft公司
+		</p>
+		<p>
+			2.下面的程序设计语言，那些是面向对象的？
+			<input type="checkbox" name="c2" value="1">Java语言
+			<input type="checkbox" name="c2" value="0">C语言
+			<input type="checkbox" name="c2" value="1">C++语言
+		</p>
+		<p>
+			3.编写Servlet程序应继承哪个类？
+			<input type="text" name="ser">
+		</p>
+		<p>
+			4.下图是哪种编程语言的徽标？
+			<input type="radio" name="c3" value="0">C++
+			<input type="radio" name="c3" value="0">Python
+			<input type="radio" name="c3" value="1">Java
+			<br>
+			<img src="image\java.jpg" alt="图片加载失败">
+		</p>
+		交卷请单击<input type="submit" name="交卷">
+		重答请单击<input type="reset">
+	</form>
+</body>
+</html>
